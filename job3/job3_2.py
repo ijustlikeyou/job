@@ -34,7 +34,7 @@ def print_3(n):
             arrayList.append(arrayList[i - 1] + arrayList[i - 2])
             print(arrayList[i])
 
-
+# 根据测试使用方法2递归的方式打印，性能是最低，1和3虽然所用方式不同，但原理都类似，经测试性能较好，性能排序应该是132
 n = int(input('请输入要打印的斐波那契数列:'))
 print_1(n)
 print_2(n)
